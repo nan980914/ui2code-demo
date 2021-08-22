@@ -1,0 +1,1286 @@
+@function pxtorem($px){
+    @return $px/50px * 1rem;
+}
+.rat {
+    width: pxtorem(375px);
+    height: pxtorem(1488px);
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: rgba(245, 245, 245, 1);
+    .valley {
+        width: pxtorem(375px);
+        height: pxtorem(64px);
+        background-color: rgba(255, 255, 255, 1);
+        .pence {
+            display: flex;
+            width: pxtorem(375px);
+            height: pxtorem(20px);
+            background-color: rgba(255, 255, 255, 0);
+            align-items: center;
+            .unconditional {
+                width: pxtorem(15px);
+                height: pxtorem(10px);
+                margin-left: pxtorem(7px);
+            }
+            .feather {
+                width: pxtorem(13px);
+                height: pxtorem(9px);
+                margin-left: pxtorem(4px);
+            }
+            .zoo {
+                width: pxtorem(48px);
+                height: pxtorem(17px);
+                margin-left: pxtorem(126px);
+                font-family: PingFangSC-Medium;
+                font-size: pxtorem(12px);
+                font-weight: 500;
+                line-height: pxtorem(17px);
+                color: rgba(51, 51, 51, 1);
+                text-align: center;
+            }
+            .build {
+                width: pxtorem(8px);
+                height: pxtorem(14px);
+                margin-left: pxtorem(89px);
+            }
+            .field {
+                width: pxtorem(33px);
+                height: pxtorem(14px);
+                margin-left: pxtorem(0px);
+                font-family: Helvetica;
+                font-size: pxtorem(12px);
+                line-height: pxtorem(17px);
+                color: rgba(51, 51, 51, 1);
+                text-align: right;
+            }
+            .nationality {
+                width: pxtorem(22px);
+                height: pxtorem(11px);
+                padding-top: pxtorem(0.1px);
+                margin-left: pxtorem(3px);
+                background-image: url(../images/EB9B50B3-C16C-498A-B353-B1EF6DA14260@2x.png);
+                background-size: pxtorem(22px) pxtorem(11px);
+                .salad {
+                    width: pxtorem(18px);
+                    height: pxtorem(7px);
+                    margin: pxtorem(2px) 0 0 pxtorem(2px);
+                    background-color: rgba(51, 51, 51, 1);
+                    border-radius: pxtorem(1px);
+                }
+            }
+            .ferry {
+                width: pxtorem(2px);
+                height: pxtorem(4px);
+                margin-left: pxtorem(1px);
+            }
+        }
+        .building {
+            display: flex;
+            width: pxtorem(215px);
+            height: pxtorem(32px);
+            margin: pxtorem(6px) 0 0 pxtorem(154px);
+            align-items: center;
+            .limit {
+                width: pxtorem(68px);
+                height: pxtorem(24px);
+                margin-left: pxtorem(0px);
+                font-family: PingFangSC-Regular;
+                font-size: pxtorem(17px);
+                line-height: pxtorem(24px);
+                color: rgba(0, 0, 0, 0.9);
+                text-align: center;
+            }
+            .stewardess {
+                display: flex;
+                width: pxtorem(87px);
+                height: pxtorem(32px);
+                margin-left: pxtorem(60px);
+                background-color: rgba(255, 255, 255, 0.3);
+                border: pxtorem(1px) solid rgba(151, 151, 151, 0.1);
+                border-radius: pxtorem(25px);
+                align-items: center;
+                .water {
+                    width: pxtorem(19px);
+                    height: pxtorem(7px);
+                    margin-left: pxtorem(14px);
+                }
+                .manage {
+                    width: pxtorem(1px);
+                    height: pxtorem(19px);
+                    margin-left: pxtorem(10px);
+                    background-color: rgba(0, 0, 0, 0.2);
+                }
+                .path {
+                    width: pxtorem(17px);
+                    height: pxtorem(17px);
+                    margin-left: pxtorem(13px);
+                }
+            }
+        }
+    }
+    .example {
+        width: pxtorem(375px);
+        height: pxtorem(371px);
+        .purple {
+            width: pxtorem(375px);
+            height: pxtorem(244px);
+            background: linear-gradient(119.5deg, rgba(79, 172, 254, 1) 0%,rgba(79, 172, 254, 1) 13%,rgba(80, 140, 255, 1) 92%,rgba(80, 140, 255, 1) 100%);
+            .valid {
+                display: flex;
+                width: pxtorem(375px);
+                height: pxtorem(40px);
+                background-color: rgba(255, 251, 232, 1);
+                align-items: center;
+                .hurry {
+                    width: pxtorem(16px);
+                    height: pxtorem(14px);
+                    margin-left: pxtorem(16px);
+                }
+                .argue {
+                    width: pxtorem(295px);
+                    height: pxtorem(20px);
+                    margin-left: pxtorem(8px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(14px);
+                    line-height: pxtorem(20px);
+                    color: rgba(237, 106, 12, 1);
+                }
+                .accommodation {
+                    width: pxtorem(8px);
+                    height: pxtorem(13px);
+                    margin-left: pxtorem(12px);
+                }
+            }
+            .mixture {
+                display: flex;
+                width: pxtorem(97px);
+                height: pxtorem(17px);
+                margin: pxtorem(16px) 0 0 pxtorem(146px);
+                align-items: center;
+                .time {
+                    width: pxtorem(84px);
+                    height: pxtorem(17px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(12px);
+                    line-height: pxtorem(17px);
+                    color: rgba(255, 255, 255, 0.8);
+                    text-align: center;
+                }
+                .picnic {
+                    width: pxtorem(12px);
+                    height: pxtorem(12px);
+                    margin-left: pxtorem(1px);
+                }
+            }
+            .consensus {
+                width: pxtorem(70px);
+                height: pxtorem(40px);
+                margin: pxtorem(4px) 0 0 pxtorem(146px);
+                font-family: PingFangSC-Medium;
+                font-size: pxtorem(28px);
+                font-weight: 500;
+                line-height: pxtorem(40px);
+                color: rgba(255, 255, 255, 1);
+                text-align: center;
+            }
+            .smoke {
+                width: pxtorem(345px);
+                height: pxtorem(2px);
+                margin: pxtorem(16px) 0 0 pxtorem(16px);
+                border: pxtorem(1px) solid rgba(255, 255, 255, 0.3);
+            }
+            .protection {
+                display: flex;
+                width: pxtorem(266px);
+                height: pxtorem(17px);
+                margin: pxtorem(14px) 0 0 pxtorem(58px);
+                .conscience {
+                    width: pxtorem(72px);
+                    height: pxtorem(17px);
+                    margin-left: pxtorem(0px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(12px);
+                    line-height: pxtorem(17px);
+                    color: rgba(255, 255, 255, 0.8);
+                    text-align: center;
+                }
+                .sense {
+                    width: pxtorem(84px);
+                    height: pxtorem(17px);
+                    margin-left: pxtorem(110px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(12px);
+                    line-height: pxtorem(17px);
+                    color: rgba(255, 255, 255, 0.8);
+                    text-align: center;
+                }
+            }
+            .owe {
+                display: flex;
+                width: pxtorem(375px);
+                height: pxtorem(70px);
+                margin-top: pxtorem(8px);
+                background-image: url(../images/709DE3D9-D2F9-428A-A89B-CF4BAD92C11B@2x.png);
+                background-size: pxtorem(375px) pxtorem(70px);
+                .chant {
+                    width: pxtorem(45px);
+                    height: pxtorem(25px);
+                    margin: pxtorem(0px) 0 0 pxtorem(72px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(18px);
+                    line-height: pxtorem(25px);
+                    color: rgba(255, 255, 255, 1);
+                    text-align: center;
+                }
+                .term {
+                    width: pxtorem(2px);
+                    height: pxtorem(22px);
+                    margin: pxtorem(-7px) 0 0 pxtorem(70px);
+                    border: pxtorem(1px) solid rgba(255, 255, 255, 0.5);
+                }
+                .urban {
+                    width: pxtorem(56px);
+                    height: pxtorem(25px);
+                    margin: pxtorem(0px) 0 0 pxtorem(65px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(18px);
+                    line-height: pxtorem(25px);
+                    color: rgba(255, 255, 255, 1);
+                    text-align: center;
+                }
+            }
+        }
+        .considerate {
+            width: pxtorem(343px);
+            height: pxtorem(148px);
+            padding-top: pxtorem(0.1px);
+            margin: pxtorem(-21px) 0 0 pxtorem(16px);
+            background-color: rgba(255, 255, 255, 1);
+            border-radius: pxtorem(8px);
+            .afraid {
+                display: flex;
+                width: pxtorem(318px);
+                height: pxtorem(24px);
+                margin: pxtorem(15px) 0 0 pxtorem(11px);
+                align-items: center;
+                .bandage {
+                    width: pxtorem(24px);
+                    height: pxtorem(24px);
+                    padding-top: pxtorem(0.1px);
+                    margin-left: pxtorem(0px);
+                    background-image: url(../images/50F87C2B-44FE-4930-988D-7CBA3ED8F96C@2x.png);
+                    background-size: pxtorem(24px) pxtorem(24px);
+                    .table {
+                        width: pxtorem(10px);
+                        height: pxtorem(2px);
+                        margin: pxtorem(12px) 0 0 pxtorem(7px);
+                        background-color: rgba(220, 238, 255, 1);
+                        border-radius: pxtorem(1px);
+                    }
+                }
+                .tennis {
+                    width: pxtorem(83px);
+                    height: pxtorem(19px);
+                    margin-left: pxtorem(7px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(15px);
+                    line-height: pxtorem(19px);
+                    color: rgba(51, 51, 51, 1);
+                }
+                .candidate {
+                    width: pxtorem(54px);
+                    height: pxtorem(19px);
+                    margin-left: pxtorem(137px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(12px);
+                    line-height: pxtorem(19px);
+                    color: rgba(170, 170, 170, 1);
+                    text-align: center;
+                }
+                .combine {
+                    width: pxtorem(6px);
+                    height: pxtorem(10px);
+                    margin-left: pxtorem(7px);
+                }
+            }
+            .hurricane {
+                width: pxtorem(322px);
+                height: pxtorem(2px);
+                margin: pxtorem(15px) 0 0 pxtorem(11px);
+                border: pxtorem(1px) solid rgba(0, 0, 0, 0.1);
+            }
+            .independent {
+                display: flex;
+                width: pxtorem(292px);
+                height: pxtorem(53px);
+                margin: pxtorem(19px) 0 0 pxtorem(22px);
+                align-items: center;
+                .cancer {
+                    width: pxtorem(70px);
+                    height: pxtorem(53px);
+                    margin-left: pxtorem(0px);
+                    .choose {
+                        width: pxtorem(70px);
+                        height: pxtorem(20px);
+                        font-family: PingFangSC-Regular;
+                        font-size: pxtorem(14px);
+                        line-height: pxtorem(20px);
+                        color: rgba(153, 153, 153, 1);
+                        text-align: center;
+                    }
+                    .town {
+                        width: pxtorem(8px);
+                        height: pxtorem(25px);
+                        margin: pxtorem(8px) 0 0 pxtorem(32px);
+                        font-family: PingFangSC-Medium;
+                        font-size: pxtorem(18px);
+                        font-weight: 500;
+                        line-height: pxtorem(25px);
+                        color: rgba(51, 51, 51, 1);
+                        text-align: center;
+                    }
+                }
+                .desire {
+                    width: pxtorem(2px);
+                    height: pxtorem(24px);
+                    margin-left: pxtorem(22px);
+                    border: pxtorem(1px) solid rgba(0, 0, 0, 0.1);
+                }
+                .visual {
+                    width: pxtorem(70px);
+                    height: pxtorem(53px);
+                    margin-left: pxtorem(21px);
+                    .life {
+                        width: pxtorem(70px);
+                        height: pxtorem(20px);
+                        font-family: PingFangSC-Regular;
+                        font-size: pxtorem(14px);
+                        line-height: pxtorem(20px);
+                        color: rgba(153, 153, 153, 1);
+                        text-align: center;
+                    }
+                    .submit {
+                        width: pxtorem(11px);
+                        height: pxtorem(25px);
+                        margin: pxtorem(8px) 0 0 pxtorem(30px);
+                        font-family: PingFangSC-Medium;
+                        font-size: pxtorem(18px);
+                        font-weight: 500;
+                        line-height: pxtorem(25px);
+                        color: rgba(51, 51, 51, 1);
+                        text-align: center;
+                    }
+                }
+                .physics {
+                    width: pxtorem(2px);
+                    height: pxtorem(24px);
+                    margin-left: pxtorem(27px);
+                    border: pxtorem(1px) solid rgba(0, 0, 0, 0.1);
+                }
+                .meaning {
+                    height: pxtorem(53px);
+                    margin-left: pxtorem(22px);
+                    .country {
+                        width: pxtorem(56px);
+                        height: pxtorem(20px);
+                        font-family: PingFangSC-Regular;
+                        font-size: pxtorem(14px);
+                        line-height: pxtorem(20px);
+                        color: rgba(153, 153, 153, 1);
+                        text-align: center;
+                    }
+                    .half {
+                        width: pxtorem(8px);
+                        height: pxtorem(25px);
+                        margin: pxtorem(8px) 0 0 pxtorem(25px);
+                        font-family: PingFangSC-Medium;
+                        font-size: pxtorem(18px);
+                        font-weight: 500;
+                        line-height: pxtorem(25px);
+                        color: rgba(51, 51, 51, 1);
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+    .joy {
+        width: pxtorem(344px);
+        height: pxtorem(300px);
+        margin: pxtorem(15px) 0 0 pxtorem(16px);
+        .adult {
+            width: pxtorem(343px);
+            height: pxtorem(300px);
+            padding-top: pxtorem(0.1px);
+            margin-left: pxtorem(1px);
+            background-color: rgba(255, 255, 255, 1);
+            border-radius: pxtorem(8px);
+            .servant {
+                display: flex;
+                width: pxtorem(318px);
+                height: pxtorem(20px);
+                margin: pxtorem(16px) 0 0 pxtorem(12px);
+                .care {
+                    width: pxtorem(183px);
+                    height: pxtorem(20px);
+                    margin-left: pxtorem(0px);
+                    .search {
+                        width: pxtorem(116px);
+                        height: pxtorem(20px);
+                        margin-left: pxtorem(67px);
+                        font-family: PingFangSC-Medium;
+                        font-size: pxtorem(14px);
+                        font-weight: 500;
+                        line-height: pxtorem(20px);
+                        color: rgba(51, 51, 51, 1);
+                    }
+                    .same {
+                        width: pxtorem(70px);
+                        height: pxtorem(20px);
+                        margin-top: pxtorem(-20px);
+                        font-family: PingFangSC-Medium;
+                        font-size: pxtorem(14px);
+                        font-weight: 500;
+                        line-height: pxtorem(20px);
+                        color: rgba(51, 51, 51, 1);
+                    }
+                }
+                .furniture {
+                    width: pxtorem(42px);
+                    height: pxtorem(20px);
+                    margin-left: pxtorem(93px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(14px);
+                    line-height: pxtorem(20px);
+                    color: rgba(45, 157, 255, 1);
+                    text-align: center;
+                }
+            }
+            .agree {
+                width: pxtorem(319px);
+                height: pxtorem(2px);
+                margin: pxtorem(15px) 0 0 pxtorem(12px);
+                border: pxtorem(1px) solid rgba(230, 230, 230, 1);
+            }
+            .heart {
+                display: flex;
+                width: pxtorem(319px);
+                height: pxtorem(20px);
+                margin: pxtorem(11px) 0 0 pxtorem(12px);
+                align-items: center;
+                .unemployment {
+                    width: pxtorem(42px);
+                    height: pxtorem(20px);
+                    margin-left: pxtorem(0px);
+                    font-family: PingFangSC-Medium;
+                    font-size: pxtorem(14px);
+                    font-weight: 500;
+                    line-height: pxtorem(20px);
+                    color: rgba(51, 51, 51, 1);
+                }
+                .nearly {
+                    width: pxtorem(77px);
+                    height: pxtorem(17px);
+                    margin-left: pxtorem(16px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(12px);
+                    line-height: pxtorem(17px);
+                    color: rgba(153, 153, 153, 1);
+                }
+                .bond {
+                    width: pxtorem(20px);
+                    height: pxtorem(20px);
+                    margin-left: pxtorem(6px);
+                }
+                .master {
+                    width: pxtorem(48px);
+                    height: pxtorem(16px);
+                    padding-top: pxtorem(0.1px);
+                    margin-left: pxtorem(110px);
+                    background-color: rgba(79, 172, 254, 0.1);
+                    border-radius: pxtorem(2px);
+                    .rise {
+                        width: pxtorem(36px);
+                        height: pxtorem(17px);
+                        margin: pxtorem(-1px) 0 0 pxtorem(6px);
+                        font-family: PingFangSC-Regular;
+                        font-size: pxtorem(12px);
+                        line-height: pxtorem(17px);
+                        color: rgba(45, 157, 255, 1);
+                    }
+                }
+            }
+            .punish {
+                display: flex;
+                width: pxtorem(319px);
+                height: pxtorem(100px);
+                margin: pxtorem(12px) 0 0 pxtorem(12px);
+                background-color: rgba(247, 247, 247, 1);
+                .monument {
+                    width: pxtorem(76px);
+                    height: pxtorem(76px);
+                    margin: pxtorem(12px) 0 0 pxtorem(12px);
+                    background-color: rgba(216, 216, 216, 1);
+                    border-radius: pxtorem(5px);
+                    .stick {
+                        width: pxtorem(76px);
+                        height: pxtorem(76px);
+                    }
+                }
+                .tax {
+                    width: pxtorem(140px);
+                    height: pxtorem(76px);
+                    margin: pxtorem(12px) 0 0 pxtorem(12px);
+                    .personnel {
+                        width: pxtorem(98px);
+                        height: pxtorem(20px);
+                        font-family: PingFangSC-Medium;
+                        font-size: pxtorem(14px);
+                        font-weight: 500;
+                        line-height: pxtorem(20px);
+                        color: rgba(51, 51, 51, 1);
+                        text-align: center;
+                    }
+                    .fact {
+                        width: pxtorem(140px);
+                        height: pxtorem(17px);
+                        margin-top: pxtorem(5px);
+                        font-family: PingFangSC-Regular;
+                        font-size: pxtorem(12px);
+                        line-height: pxtorem(17px);
+                        color: rgba(153, 153, 153, 1);
+                    }
+                    .therefore {
+                        width: pxtorem(62px);
+                        height: pxtorem(17px);
+                        margin-top: pxtorem(17px);
+                        font-family: PingFangSC-Regular;
+                        font-size: pxtorem(12px);
+                        line-height: pxtorem(17px);
+                        color: rgba(102, 102, 102, 1);
+                        text-align: center;
+                    }
+                }
+                .ox {
+                    width: pxtorem(14px);
+                    height: pxtorem(17px);
+                    margin: pxtorem(71px) 0 0 pxtorem(53px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(12px);
+                    line-height: pxtorem(17px);
+                    color: rgba(51, 51, 51, 1);
+                    text-align: center;
+                }
+            }
+            .ocean {
+                width: pxtorem(183px);
+                height: pxtorem(20px);
+                margin: pxtorem(12px) 0 0 pxtorem(148px);
+                font-family: PingFangSC-Regular;
+                font-size: pxtorem(14px);
+                line-height: pxtorem(20px);
+                color: rgba(153, 153, 153, 1);
+                text-align: right;
+                .eagle {
+                    width: NaNpx;
+                    height: pxtorem(20px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(14px);
+                    line-height: pxtorem(20px);
+                    color: rgba(153, 153, 153, 1);
+                    text-align: right;
+                }
+                .cloud {
+                    width: NaNpx;
+                    height: pxtorem(20px);
+                    margin-top: pxtorem(-20px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(14px);
+                    line-height: pxtorem(20px);
+                    color: rgba(51, 51, 51, 1);
+                    text-align: right;
+                }
+            }
+            .fibre {
+                width: pxtorem(319px);
+                height: pxtorem(2px);
+                margin: pxtorem(11px) 0 0 pxtorem(12px);
+                border: pxtorem(1px) solid rgba(230, 230, 230, 1);
+            }
+            .fiber {
+                display: flex;
+                width: pxtorem(173px);
+                height: pxtorem(29px);
+                margin: pxtorem(15px) 0 0 pxtorem(159px);
+                justify-content: space-between;
+                .bingo {
+                    width: pxtorem(81px);
+                    height: pxtorem(29px);
+                    padding-top: pxtorem(0.1px);
+                    border: pxtorem(1px) solid rgba(216, 216, 216, 1);
+                    border-radius: pxtorem(16px);
+                    .fortunate {
+                        width: pxtorem(56px);
+                        height: pxtorem(20px);
+                        margin: pxtorem(2px) 0 0 pxtorem(11px);
+                        font-family: PingFangSC-Regular;
+                        font-size: pxtorem(14px);
+                        line-height: pxtorem(20px);
+                        color: rgba(102, 102, 102, 1);
+                        text-align: center;
+                    }
+                }
+                .mommy {
+                    width: pxtorem(81px);
+                    height: pxtorem(29px);
+                    padding-top: pxtorem(0.1px);
+                    border: pxtorem(1px) solid rgba(45, 157, 255, 1);
+                    border-radius: pxtorem(16px);
+                    .wage {
+                        width: pxtorem(56px);
+                        height: pxtorem(20px);
+                        margin: pxtorem(2px) 0 0 pxtorem(11px);
+                        font-family: PingFangSC-Regular;
+                        font-size: pxtorem(14px);
+                        line-height: pxtorem(20px);
+                        color: rgba(45, 157, 255, 1);
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .along {
+            width: pxtorem(344px);
+            height: pxtorem(2px);
+            margin-top: pxtorem(-239px);
+            border: pxtorem(1px) solid rgba(0, 0, 0, 0.1);
+        }
+    }
+    .surplus {
+        width: pxtorem(343px);
+        height: pxtorem(300px);
+        padding-top: pxtorem(0.1px);
+        margin: pxtorem(12px) 0 0 pxtorem(17px);
+        background-color: rgba(255, 255, 255, 1);
+        border-radius: pxtorem(8px);
+        .add {
+            display: flex;
+            width: pxtorem(319px);
+            height: pxtorem(20px);
+            margin: pxtorem(16px) 0 0 pxtorem(12px);
+            .outdoors {
+                width: pxtorem(233px);
+                height: pxtorem(20px);
+                margin-left: pxtorem(0px);
+                .paper {
+                    width: pxtorem(166px);
+                    height: pxtorem(20px);
+                    margin-left: pxtorem(67px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(14px);
+                    line-height: pxtorem(20px);
+                    color: rgba(51, 51, 51, 1);
+                }
+                .fetch {
+                    width: pxtorem(70px);
+                    height: pxtorem(20px);
+                    margin-top: pxtorem(-20px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(14px);
+                    line-height: pxtorem(20px);
+                    color: rgba(51, 51, 51, 1);
+                }
+            }
+            .church {
+                width: pxtorem(42px);
+                height: pxtorem(20px);
+                margin-left: pxtorem(44px);
+                font-family: PingFangSC-Regular;
+                font-size: pxtorem(14px);
+                line-height: pxtorem(20px);
+                color: rgba(255, 57, 31, 1);
+                text-align: center;
+            }
+        }
+        .edition {
+            width: pxtorem(319px);
+            height: pxtorem(2px);
+            margin: pxtorem(15px) 0 0 pxtorem(12px);
+            border: pxtorem(1px) solid rgba(230, 230, 230, 1);
+        }
+        .weather {
+            display: flex;
+            width: pxtorem(319px);
+            height: pxtorem(20px);
+            margin: pxtorem(11px) 0 0 pxtorem(12px);
+            align-items: center;
+            .opera {
+                width: pxtorem(42px);
+                height: pxtorem(20px);
+                margin-left: pxtorem(0px);
+                font-family: PingFangSC-Medium;
+                font-size: pxtorem(14px);
+                font-weight: 500;
+                line-height: pxtorem(20px);
+                color: rgba(51, 51, 51, 1);
+            }
+            .dot {
+                width: pxtorem(77px);
+                height: pxtorem(17px);
+                margin-left: pxtorem(16px);
+                font-family: PingFangSC-Regular;
+                font-size: pxtorem(12px);
+                line-height: pxtorem(17px);
+                color: rgba(153, 153, 153, 1);
+            }
+            .service {
+                width: pxtorem(20px);
+                height: pxtorem(20px);
+                margin-left: pxtorem(6px);
+            }
+            .disease {
+                width: pxtorem(48px);
+                height: pxtorem(16px);
+                padding-top: pxtorem(0.1px);
+                margin-left: pxtorem(110px);
+                background-color: rgba(79, 172, 254, 0.1);
+                border-radius: pxtorem(2px);
+                .symphony {
+                    width: pxtorem(36px);
+                    height: pxtorem(17px);
+                    margin: pxtorem(-1px) 0 0 pxtorem(6px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(12px);
+                    line-height: pxtorem(17px);
+                    color: rgba(45, 157, 255, 1);
+                }
+            }
+        }
+        .survival {
+            display: flex;
+            width: pxtorem(319px);
+            height: pxtorem(100px);
+            margin: pxtorem(12px) 0 0 pxtorem(12px);
+            background-color: rgba(247, 247, 247, 1);
+            .thus {
+                width: pxtorem(76px);
+                height: pxtorem(76px);
+                margin: pxtorem(12px) 0 0 pxtorem(12px);
+                background-color: rgba(216, 216, 216, 1);
+                border-radius: pxtorem(5px);
+                .satisfy {
+                    width: pxtorem(76px);
+                    height: pxtorem(76px);
+                }
+            }
+            .arise {
+                width: pxtorem(140px);
+                height: pxtorem(76px);
+                margin: pxtorem(12px) 0 0 pxtorem(12px);
+                .sorry {
+                    width: pxtorem(98px);
+                    height: pxtorem(20px);
+                    font-family: PingFangSC-Medium;
+                    font-size: pxtorem(14px);
+                    font-weight: 500;
+                    line-height: pxtorem(20px);
+                    color: rgba(51, 51, 51, 1);
+                    text-align: center;
+                }
+                .dinosaur {
+                    width: pxtorem(140px);
+                    height: pxtorem(17px);
+                    margin-top: pxtorem(5px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(12px);
+                    line-height: pxtorem(17px);
+                    color: rgba(153, 153, 153, 1);
+                }
+                .properly {
+                    width: pxtorem(62px);
+                    height: pxtorem(17px);
+                    margin-top: pxtorem(17px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(12px);
+                    line-height: pxtorem(17px);
+                    color: rgba(102, 102, 102, 1);
+                    text-align: center;
+                }
+            }
+            .story {
+                width: pxtorem(14px);
+                height: pxtorem(17px);
+                margin: pxtorem(71px) 0 0 pxtorem(53px);
+                font-family: PingFangSC-Regular;
+                font-size: pxtorem(12px);
+                line-height: pxtorem(17px);
+                color: rgba(51, 51, 51, 1);
+                text-align: center;
+            }
+        }
+        .appetite {
+            display: flex;
+            width: pxtorem(319px);
+            height: pxtorem(20px);
+            margin: pxtorem(12px) 0 0 pxtorem(12px);
+            align-items: center;
+            .pronounce {
+                width: pxtorem(48px);
+                height: pxtorem(17px);
+                margin-left: pxtorem(0px);
+                font-family: PingFangSC-Regular;
+                font-size: pxtorem(12px);
+                line-height: pxtorem(17px);
+                color: rgba(153, 153, 153, 1);
+            }
+            .socialist {
+                width: pxtorem(183px);
+                height: pxtorem(20px);
+                margin-left: pxtorem(88px);
+                font-family: PingFangSC-Regular;
+                font-size: pxtorem(14px);
+                line-height: pxtorem(20px);
+                color: rgba(153, 153, 153, 1);
+                text-align: right;
+                .certain {
+                    width: NaNpx;
+                    height: pxtorem(20px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(14px);
+                    line-height: pxtorem(20px);
+                    color: rgba(153, 153, 153, 1);
+                    text-align: right;
+                }
+                .pea {
+                    width: NaNpx;
+                    height: pxtorem(20px);
+                    margin-top: pxtorem(-20px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(14px);
+                    line-height: pxtorem(20px);
+                    color: rgba(51, 51, 51, 1);
+                    text-align: right;
+                }
+            }
+        }
+        .bacterium {
+            width: pxtorem(319px);
+            height: pxtorem(2px);
+            margin: pxtorem(11px) 0 0 pxtorem(12px);
+            border: pxtorem(1px) solid rgba(230, 230, 230, 1);
+        }
+        .contrary {
+            display: flex;
+            width: pxtorem(173px);
+            height: pxtorem(29px);
+            margin: pxtorem(15px) 0 0 pxtorem(159px);
+            justify-content: space-between;
+            .roof {
+                width: pxtorem(81px);
+                height: pxtorem(29px);
+                padding-top: pxtorem(0.1px);
+                border: pxtorem(1px) solid rgba(216, 216, 216, 1);
+                border-radius: pxtorem(16px);
+                .carve {
+                    width: pxtorem(56px);
+                    height: pxtorem(20px);
+                    margin: pxtorem(2px) 0 0 pxtorem(11px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(14px);
+                    line-height: pxtorem(20px);
+                    color: rgba(102, 102, 102, 1);
+                    text-align: center;
+                }
+            }
+            .essay {
+                width: pxtorem(81px);
+                height: pxtorem(29px);
+                padding-top: pxtorem(0.1px);
+                border: pxtorem(1px) solid rgba(45, 157, 255, 1);
+                border-radius: pxtorem(16px);
+                .reward {
+                    width: pxtorem(56px);
+                    height: pxtorem(20px);
+                    margin: pxtorem(2px) 0 0 pxtorem(11px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(14px);
+                    line-height: pxtorem(20px);
+                    color: rgba(45, 157, 255, 1);
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .convenience {
+        width: pxtorem(343px);
+        height: pxtorem(300px);
+        padding-top: pxtorem(0.1px);
+        margin: pxtorem(20px) 0 0 pxtorem(17px);
+        background-color: rgba(255, 255, 255, 1);
+        border-radius: pxtorem(8px);
+        .export {
+            display: flex;
+            width: pxtorem(319px);
+            height: pxtorem(20px);
+            margin: pxtorem(16px) 0 0 pxtorem(12px);
+            .fit {
+                width: pxtorem(233px);
+                height: pxtorem(20px);
+                margin-left: pxtorem(0px);
+                .racial {
+                    width: pxtorem(166px);
+                    height: pxtorem(20px);
+                    margin-left: pxtorem(67px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(14px);
+                    line-height: pxtorem(20px);
+                    color: rgba(51, 51, 51, 1);
+                }
+                .herself {
+                    width: pxtorem(70px);
+                    height: pxtorem(20px);
+                    margin-top: pxtorem(-20px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(14px);
+                    line-height: pxtorem(20px);
+                    color: rgba(51, 51, 51, 1);
+                }
+            }
+            .bid {
+                width: pxtorem(42px);
+                height: pxtorem(20px);
+                margin-left: pxtorem(44px);
+                font-family: PingFangSC-Regular;
+                font-size: pxtorem(14px);
+                line-height: pxtorem(20px);
+                color: rgba(255, 57, 31, 1);
+                text-align: center;
+            }
+        }
+        .novelist {
+            width: pxtorem(319px);
+            height: pxtorem(2px);
+            margin: pxtorem(15px) 0 0 pxtorem(12px);
+            border: pxtorem(1px) solid rgba(230, 230, 230, 1);
+        }
+        .safety {
+            display: flex;
+            width: pxtorem(319px);
+            height: pxtorem(20px);
+            margin: pxtorem(11px) 0 0 pxtorem(12px);
+            align-items: center;
+            .off {
+                width: pxtorem(42px);
+                height: pxtorem(20px);
+                margin-left: pxtorem(0px);
+                font-family: PingFangSC-Medium;
+                font-size: pxtorem(14px);
+                font-weight: 500;
+                line-height: pxtorem(20px);
+                color: rgba(51, 51, 51, 1);
+            }
+            .east {
+                width: pxtorem(77px);
+                height: pxtorem(17px);
+                margin-left: pxtorem(16px);
+                font-family: PingFangSC-Regular;
+                font-size: pxtorem(12px);
+                line-height: pxtorem(17px);
+                color: rgba(153, 153, 153, 1);
+            }
+            .misunderstand {
+                width: pxtorem(20px);
+                height: pxtorem(20px);
+                margin-left: pxtorem(6px);
+            }
+            .razor {
+                width: pxtorem(48px);
+                height: pxtorem(16px);
+                padding-top: pxtorem(0.1px);
+                margin-left: pxtorem(110px);
+                background-color: rgba(79, 172, 254, 0.1);
+                border-radius: pxtorem(2px);
+                .waiting {
+                    width: pxtorem(36px);
+                    height: pxtorem(17px);
+                    margin: pxtorem(-1px) 0 0 pxtorem(6px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(12px);
+                    line-height: pxtorem(17px);
+                    color: rgba(45, 157, 255, 1);
+                }
+            }
+        }
+        .room {
+            display: flex;
+            width: pxtorem(319px);
+            height: pxtorem(100px);
+            margin: pxtorem(12px) 0 0 pxtorem(12px);
+            background-color: rgba(247, 247, 247, 1);
+            .short {
+                width: pxtorem(76px);
+                height: pxtorem(76px);
+                margin: pxtorem(12px) 0 0 pxtorem(12px);
+                background-color: rgba(216, 216, 216, 1);
+                border-radius: pxtorem(5px);
+                .surprise {
+                    width: pxtorem(76px);
+                    height: pxtorem(76px);
+                }
+            }
+            .pleasure {
+                width: pxtorem(140px);
+                height: pxtorem(76px);
+                margin: pxtorem(12px) 0 0 pxtorem(12px);
+                .tidy {
+                    width: pxtorem(98px);
+                    height: pxtorem(20px);
+                    font-family: PingFangSC-Medium;
+                    font-size: pxtorem(14px);
+                    font-weight: 500;
+                    line-height: pxtorem(20px);
+                    color: rgba(51, 51, 51, 1);
+                    text-align: center;
+                }
+                .garage {
+                    width: pxtorem(140px);
+                    height: pxtorem(17px);
+                    margin-top: pxtorem(5px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(12px);
+                    line-height: pxtorem(17px);
+                    color: rgba(153, 153, 153, 1);
+                }
+                .analyse {
+                    width: pxtorem(62px);
+                    height: pxtorem(17px);
+                    margin-top: pxtorem(17px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(12px);
+                    line-height: pxtorem(17px);
+                    color: rgba(102, 102, 102, 1);
+                    text-align: center;
+                }
+            }
+            .Am {
+                width: pxtorem(14px);
+                height: pxtorem(17px);
+                margin: pxtorem(71px) 0 0 pxtorem(53px);
+                font-family: PingFangSC-Regular;
+                font-size: pxtorem(12px);
+                line-height: pxtorem(17px);
+                color: rgba(51, 51, 51, 1);
+                text-align: center;
+            }
+        }
+        .analyze {
+            display: flex;
+            width: pxtorem(319px);
+            height: pxtorem(20px);
+            margin: pxtorem(12px) 0 0 pxtorem(12px);
+            align-items: center;
+            .notice {
+                width: pxtorem(48px);
+                height: pxtorem(17px);
+                margin-left: pxtorem(0px);
+                font-family: PingFangSC-Regular;
+                font-size: pxtorem(12px);
+                line-height: pxtorem(17px);
+                color: rgba(153, 153, 153, 1);
+            }
+            .violinist {
+                width: pxtorem(183px);
+                height: pxtorem(20px);
+                margin-left: pxtorem(88px);
+                font-family: PingFangSC-Regular;
+                font-size: pxtorem(14px);
+                line-height: pxtorem(20px);
+                color: rgba(153, 153, 153, 1);
+                text-align: right;
+                .ice {
+                    width: NaNpx;
+                    height: pxtorem(20px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(14px);
+                    line-height: pxtorem(20px);
+                    color: rgba(153, 153, 153, 1);
+                    text-align: right;
+                }
+                .deliberately {
+                    width: NaNpx;
+                    height: pxtorem(20px);
+                    margin-top: pxtorem(-20px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(14px);
+                    line-height: pxtorem(20px);
+                    color: rgba(51, 51, 51, 1);
+                    text-align: right;
+                }
+            }
+        }
+        .alike {
+            width: pxtorem(319px);
+            height: pxtorem(2px);
+            margin: pxtorem(11px) 0 0 pxtorem(12px);
+            border: pxtorem(1px) solid rgba(230, 230, 230, 1);
+        }
+        .perfect {
+            display: flex;
+            width: pxtorem(173px);
+            height: pxtorem(29px);
+            margin: pxtorem(15px) 0 0 pxtorem(159px);
+            justify-content: space-between;
+            .broom {
+                width: pxtorem(81px);
+                height: pxtorem(29px);
+                padding-top: pxtorem(0.1px);
+                border: pxtorem(1px) solid rgba(216, 216, 216, 1);
+                border-radius: pxtorem(16px);
+                .welfare {
+                    width: pxtorem(56px);
+                    height: pxtorem(20px);
+                    margin: pxtorem(2px) 0 0 pxtorem(11px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(14px);
+                    line-height: pxtorem(20px);
+                    color: rgba(102, 102, 102, 1);
+                    text-align: center;
+                }
+            }
+            .keyboard {
+                width: pxtorem(81px);
+                height: pxtorem(29px);
+                padding-top: pxtorem(0.1px);
+                border: pxtorem(1px) solid rgba(45, 157, 255, 1);
+                border-radius: pxtorem(16px);
+                .dad {
+                    width: pxtorem(56px);
+                    height: pxtorem(20px);
+                    margin: pxtorem(2px) 0 0 pxtorem(11px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(14px);
+                    line-height: pxtorem(20px);
+                    color: rgba(45, 157, 255, 1);
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .daddy {
+        display: flex;
+        width: pxtorem(199px);
+        height: pxtorem(17px);
+        margin: pxtorem(20px) 0 0 pxtorem(89px);
+        align-items: center;
+        .approximately {
+            width: pxtorem(49px);
+            height: pxtorem(2px);
+            margin-left: pxtorem(0px);
+            border: pxtorem(1px) solid rgba(0, 0, 0, 0.1);
+        }
+        .hopeful {
+            width: pxtorem(78px);
+            height: pxtorem(17px);
+            margin-left: pxtorem(11px);
+            font-family: PingFangSC-Regular;
+            font-size: pxtorem(12px);
+            line-height: pxtorem(17px);
+            letter-spacing: pxtorem(1px);
+            color: rgba(153, 153, 153, 1);
+            text-align: center;
+        }
+        .habit {
+            width: pxtorem(49px);
+            height: pxtorem(2px);
+            margin-left: pxtorem(12px);
+            border: pxtorem(1px) solid rgba(0, 0, 0, 0.1);
+        }
+    }
+    .confidential {
+        width: pxtorem(375px);
+        height: pxtorem(49px);
+        margin-top: pxtorem(20px);
+        background-color: rgba(255, 255, 255, 1);
+        box-shadow: pxtorem(0px) pxtorem(-1px) pxtorem(9px) pxtorem(0px) rgba(1, 1, 5, 0.04);
+        .complex {
+            display: flex;
+            width: pxtorem(476px);
+            height: pxtorem(49px);
+            padding-top: pxtorem(6px);
+            padding-left: pxtorem(51px);
+            background-color: rgba(255, 255, 255, 1);
+            box-shadow: pxtorem(0px) pxtorem(-1px) pxtorem(9px) pxtorem(0px) rgba(1, 1, 5, 0.04);
+            flex-wrap: wrap;
+            .recreation {
+                display: flex;
+                width: pxtorem(24px);
+                height: pxtorem(38px);
+                margin-right: pxtorem(101px);
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .data {
+                    width: pxtorem(24px);
+                    height: pxtorem(24px);
+                }
+                .kindergarten {
+                    width: pxtorem(20px);
+                    height: pxtorem(14px);
+                    margin-left: pxtorem(2px);
+                    font-family: PingFangSC-Medium;
+                    font-size: pxtorem(10px);
+                    font-weight: 500;
+                    line-height: pxtorem(14px);
+                    color: rgba(79, 172, 254, 1);
+                    text-align: center;
+                }
+            }
+            .sniff {
+                display: flex;
+                width: pxtorem(24px);
+                height: pxtorem(38px);
+                margin-right: pxtorem(101px);
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .we {
+                    width: pxtorem(24px);
+                    height: pxtorem(24px);
+                }
+                .studio {
+                    width: pxtorem(20px);
+                    height: pxtorem(14px);
+                    margin-left: pxtorem(2px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(10px);
+                    line-height: pxtorem(14px);
+                    color: rgba(153, 153, 153, 1);
+                    text-align: center;
+                }
+            }
+            .overlook {
+                display: flex;
+                width: pxtorem(24px);
+                height: pxtorem(38px);
+                margin-right: pxtorem(101px);
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .barbershop {
+                    width: pxtorem(24px);
+                    height: pxtorem(24px);
+                }
+                .minority {
+                    width: pxtorem(20px);
+                    height: pxtorem(14px);
+                    margin-left: pxtorem(2px);
+                    font-family: PingFangSC-Regular;
+                    font-size: pxtorem(10px);
+                    line-height: pxtorem(14px);
+                    color: rgba(153, 153, 153, 1);
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
